@@ -1,0 +1,19 @@
+{
+  "name": "treddit",
+  "version": "1.0.0",
+  "description": "A simple way to tread reddit hands-free",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomatotoaster/Treddit.git"
+  },
+  "author": "Amal Nazeem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomatotoaster/Treddit/issues"
+  },
+  "homepage": "https://github.com/tomatotoaster/Treddit#readme"
+}
