@@ -4,6 +4,7 @@
   "description": "A simple way to tread reddit hands-free",
   "main": "index.js",
   "scripts": {
+    "start": "src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/TomatoToaster/Treddit/issues"
   },
-  "homepage": "https://github.com/TomatoToaster/Treddit#readme"
+  "homepage": "https://github.com/TomatoToaster/Treddit#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
 }
