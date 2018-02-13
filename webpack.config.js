@@ -25,6 +25,7 @@ var config = {
   },
   plugins: [
     new HtmlWebPackPlugin({
+      hash: true,
       template: SRC_DIR + '/index.html',
       filename: APP_DIR + '/index.html'
     })
