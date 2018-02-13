@@ -26,6 +26,7 @@ var config = {
   plugins: [
     new HtmlWebPackPlugin({
       hash: true,
+      title: 'Free of Create-React-App at Last',
       template: SRC_DIR + '/index.html',
       filename: APP_DIR + '/index.html'
     })
