@@ -4,7 +4,7 @@
   "description": "A simple way to tread reddit hands-free",
   "main": "index.js",
   "scripts": {
-    "start": "src/app.js",
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
@@ -18,8 +18,18 @@
     "url": "https://github.com/TomatoToaster/Treddit/issues"
   },
   "homepage": "https://github.com/TomatoToaster/Treddit#readme",
-  "dependencies": {},
+  "dependencies": {
+    "animejs": "^2.2.0"
+  },
   "devDependencies": {
-    "webpack": "^3.8.1"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.30.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.11.1"
   }
 }
