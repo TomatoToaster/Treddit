@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import anime from 'animejs';
+import Logo from './components/Logo/logo';
 
 class App extends Component {
   render() {
     return (
-      <div>Hello</div>
+      <Logo />
     );
   }
 }
@@ -23,4 +25,14 @@ class App extends Component {
 //   loop: true
 // });
 
-ReactDOM.render(<App />, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById('app'));
+Logo.triggerAnimation();
+anime({
+  targets: '#lineDrawing .lines path',
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: 'easeInOutSine',
+  duration: 1500,
+  delay(el, i) { return i * 250; },
+  direction: 'alternate',
+  loop: true,
+});

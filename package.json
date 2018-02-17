@@ -2,26 +2,24 @@
   "name": "treddit",
   "version": "1.0.0",
   "description": "A simple way to tread reddit hands-free",
-  "main": "index.js",
-  "scripts": {
-    "start": "webpack-dev-server --hot",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+  "homepage": "https://github.com/TomatoToaster/Treddit#readme",
+  "bugs": {
+    "url": "https://github.com/TomatoToaster/Treddit/issues"
   },
+  "license": "MIT",
+  "author": "Amal Nazeem",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tomatotoaster/Treddit.git"
   },
-  "author": "Amal Nazeem",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TomatoToaster/Treddit/issues"
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/TomatoToaster/Treddit#readme",
   "dependencies": {
-    "animejs": "^2.2.0"
-  },
-  "devDependencies": {
+    "animejs": "^2.2.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
@@ -33,7 +31,18 @@
     "react-dom": "^16.2.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1",
-    "webpack": "^3.8.1",
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.6.1",
+    "eslint-plugin-standard": "^3.0.1",
     "webpack-dev-server": "^2.11.1"
   }
 }
