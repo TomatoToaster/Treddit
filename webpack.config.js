@@ -31,6 +31,7 @@ const config = {
     new HtmlWebPackPlugin({
       hash: true,
       title: 'Free of Create-React-App at Last',
+      favicon: `${SRC_DIR}/images/wheel_favicon.ico`,
       template: `${SRC_DIR}/index.html`,
       filename: `${APP_DIR}/index.html`,
     }),
